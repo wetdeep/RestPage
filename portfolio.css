@@ -1,0 +1,237 @@
+
+
+       
+
+   
+
+
+
+html{
+  height:100%;
+  margin:0;
+}
+body{
+  background-color: #eeeeee  !important; 
+  height:100%;
+  margin:0;
+}
+
+
+.navbar-brand{
+  transform:translateX(-50%);
+  left:50%;
+  position:absolute;
+  width:200px;
+  cursor:pointer;
+}  
+
+img.logo{
+  height: 55px;
+    width: 200px;
+    margin-top:-20px;
+     
+}
+ 
+img { 
+  max-width:90%;
+  height:auto;
+}
+
+
+  
+.navbar-toggle {
+    outline: none;
+    border:none;
+    border-color: transparent;
+  
+} 
+
+.fa-bars{color:gray ;}
+
+
+main{
+ margin:0;
+ height:100%; 
+} 
+
+.coverPage{
+  
+    font-family:'Merienda One', cursive; 
+    font-size:400%; 
+    color:#fffafa;
+    font-weight:bold;
+    letter-spacing: 15px;
+    line-height: 2em;
+}
+
+/*@include media-breakpoint-up(sm){
+     .coverphoto{
+}   font-size:16px;
+} */ 
+
+.coverphoto{
+
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0)
+    ),
+   url(http://image.ibb.co/nkiy7k/mira_bozhko_178272.jpg) ;
+  height:100%;
+  background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+}
+
+
+
+/* Jumbotrons*/
+.jumbotron{
+ /* border-radius: 0 !important; padding:0!important;*/
+    padding-top:0px;
+
+} 
+
+
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+
+
+.jumbo-about {
+
+    padding-top:100px; 
+    padding-left:0;
+    margin-bottom:0px;
+    font-family: 'Indie Flower', cursive;
+    font-color:#191919;
+    font-weight:bold;    
+}
+
+.arrow{
+   text-align:center;
+   margin: auto;
+  padding-top:10px;
+  -webkit-animation: bounce 2s infinite ease-in-out;
+}
+
+.fa-chevron-down{
+  color:#191919 ;
+}
+ @-webkit-keyframes bounce {
+     	0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
+        40% { -webkit-transform: translateY(-20px); }
+	80% { -webkit-transform: translateY(-10px); }
+}
+
+
+
+.jumbo-port{
+
+   padding-top:70px;
+   padding-right:100px;
+   margin-bottom:0px;
+
+}
+.jumbo-contact{
+   margin-top:20px; 
+   padding-top:200px;
+  margin-bottom:0px;
+ font-family: 'Open Sans', sans-serif;
+  font-color:#191919;
+  font-weight:2em;
+  letter-spacing:2px;
+  
+  
+}
+
+
+.showcase1{
+
+padding-top:100px;
+}
+
+.showcase2{
+  
+    padding-top: 200px;
+}
+
+
+.fa-paper-plane{
+color:grey;
+font-size:25px;
+
+}
+
+
+.location{
+padding-top:50px;
+background-color:#191919 ;
+padding-bottom:20px;
+}
+
+
+
+.whereabout{
+ font-family: 'Work Sans', sans-serif; 
+ font-size: 13px;
+ color: #fffafa;
+ font-weight:lighter;
+ line-height:1.5em;
+ letter-spacing:1px;
+ 
+}
+    
+
+
+.fa-apple,.fa-weixin,.fa-weibo{
+font-size:20px;
+color: #fffafa;
+display: inline-block;
+margin: 25px;
+-webkit-transition:0.5s;
+transition: 0.5s;
+}
+
+
+.fa-apple:hover {
+ 
+    padding-right:10px;
+}
+.fa-weixin:hover {
+ 
+    padding-right:10px;
+}
+.fa-weibo:hover {
+ 
+    padding-left:10px;
+}
+
+
+@media screen and (max-width:560px){
+   .coverphoto{display:none;}
+ 
+    .textSm{  
+    display:none;
+    }
+    .jumbo-port{
+    
+    display:none;
+    }  
+
+}
+
+@media screen and (max-width:976px){
+   .textSm{
+    font-size:60%;  
+} 
+}
+@media screen and (max-width:1200px){
+    .textSm{
+    font-size:65%;
+}
+}
